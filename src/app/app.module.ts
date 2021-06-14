@@ -15,7 +15,14 @@ import { AngularFireAuthModule } from "@angular/fire/auth";
 import { AngularFireStorageModule } from "@angular/fire/storage";
 
 const firebaseConfig = {
-  
+  apiKey: "AIzaSyDAk45g7xEnZXJHglxMKyk9EmLvzyQMdxc",
+  authDomain: "authmail-aabf7.firebaseapp.com",
+  databaseURL:
+    "https://authmail-aabf7-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "authmail-aabf7",
+  storageBucket: "authmail-aabf7.appspot.com",
+  messagingSenderId: "689135892468",
+  appId: "1:689135892468:web:ca46b7c36db1dcd33a6ba1",
 };
 
 @NgModule({
